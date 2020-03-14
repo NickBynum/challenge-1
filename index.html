@@ -16,43 +16,47 @@
 </head>
 
 <body>
-  <header class=".container header-bg">
+  <header class=".container-fluid header-bg">
     <nav class="navbar navbar-expand-lg">
       <a class="navbar-brand" href="#"><img src="https://picsum.photos/id/237/100/75" alt="Logo" class=""></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <div class="collapse navbar-collapse justify-content-end text-light" id="navbarNav">
         <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link Active" href="#">Home <span class="sr-only">(current)</span></a>
+          <li class="nav-item text-light">
+            <a class="nav-link text-light" href="#">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="#">Features</a>
+            <a class="nav-link text-light" href="#">Features</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="#">Pricing</a>
+            <a class="nav-link text-light" href="#">Pricing</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="#" tabindex="-1"> Last Link</a>
+            <a class="nav-link text-light" href="#" tabindex="-1"> Last Link</a>
           </li>
         </ul>
       </div>
     </nav>
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="order-md-2 col-12 col-md-6"><iframe width="560" height="315"
-            src="https://www.youtube.com/embed/Esd2D4b5L_o" frameborder="0"
+    <div class="container-fluid">
+      <div class="row justify-content-center pb-5">
+        <div class="order-md-2 col-12 col-md-6 embed-responsive-item-16by9 d-flex">
+          <iframe class="embed-responsive-item vid" src="https://www.youtube.com/embed/Esd2D4b5L_o" frameborder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
-        <div class="order-md-1 col-12 col-md-6 align-self-end">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
-          voluptatibus sunt nemo dignissimos! Natus, quasi quisquam nihil reprehenderit et inventore ipsum, praesentium
-          libero at, aliquid ab quibusdam ratione beatae perspiciatis.
+        <div class="order-md-1 col-12 col-md-4 align-self-end text-justify">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
+            voluptatibus sunt nemo dignissimos! Natus, quasi quisquam nihil reprehenderit et inventore ipsum,
+            praesentium
+            libero at, aliquid ab quibusdam ratione beatae perspiciatis. Lorem ipsum dolor sit amet consectetur,
+            adipisicing elit. Pariatur sed et quisquam dicta, provident expedita voluptates nemo esse accusamus sapiente
+            illum cumque tempora eos molestias fugiat vitae sequi impedit numquam. Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Consectetur repellat sapiente dolores aliquid. </p>
           <div class="row">
             <div class="col-12 py-1">
-              <button type="button" class="btn btn-primary w-100">Primary</button>
+              <button type="button" class="btn-1 btn-color w-100">Primary</button>
             </div>
           </div>
         </div>
@@ -67,13 +71,13 @@
 
       <div class="col-12 col-md-3 p-5 ">
         <div class="card bg-warning nb">
-          <img src="https://picsum.photos/200" class="card-img-top rounded-circle p-3" alt="...">
-          <div class="card-body bg-primary">
-            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt atque nobis
+          <img src="https://picsum.photos/200" class="card-img-top rounded-circle p-2  img-fluid" alt="...">
+          <div class="card-body bg-purp">
+            <p class="card-text text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt atque nobis
               praesentium eaque laboriosam unde labore perspiciatis vitae! Deleniti exercitationem laudantium, similique
               nemo dignissimos laborum pariatur blanditiis! Aspernatur, ducimus unde!</p>
           </div>
-          <button>Random Button</button>
+          <button class="btn-1 btn-color2">Random Button</button>
         </div>
       </div>
 
@@ -81,15 +85,13 @@
 
       <div class="col-12 col-md-3 p-5">
         <div class="card bg-warning nb">
-          <img src="https://picsum.photos/200" class="card-img-top rounded-circle p-3" alt="...">
-          <div class="card-body bg-primary">
-            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt atque nobis
+          <img src="https://picsum.photos/200" class="card-img-top rounded-circle p-2  img-fluid" alt="...">
+          <div class="card-body bg-purp">
+            <p class="card-text text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt atque nobis
               praesentium eaque laboriosam unde labore perspiciatis vitae! Deleniti exercitationem laudantium, similique
               nemo dignissimos laborum pariatur blanditiis! Aspernatur, ducimus unde!</p>
           </div>
-          <div class="card-body">
-            <a href="#" class="card-link">Read how persistence and a strong dealer relationship helped the efforts ></a>
-          </div>
+          <button class="btn-1 btn-color2">Random Button</button>
         </div>
       </div>
 
@@ -97,27 +99,45 @@
 
       <div class="col-12 col-md-3 p-5">
         <div class="card bg-warning nb">
-          <img src="https://picsum.photos/200" class="card-img-top rounded-circle p-3" alt="...">
-          <div class="card-body bg-primary">
-            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt atque nobis
+          <img src="https://picsum.photos/200" class="card-img-top rounded-circle p-2 img-fluid" alt="...">
+          <div class="card-body bg-purp">
+            <p class="card-text text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt atque nobis
               praesentium eaque laboriosam unde labore perspiciatis vitae! Deleniti exercitationem laudantium, similique
               nemo dignissimos laborum pariatur blanditiis! Aspernatur, ducimus unde!</p>
           </div>
-          <div class="card-body">
-            <a href="#" class="card-link">Read how persistence and a strong dealer relationship helped the efforts ></a>
-          </div>
+          <button class="btn-1 btn-color2">Random Button</button>
         </div>
       </div>
     </div>
   </main>
 
+  <div class="container-fluid">
+    <div class="row my-5 py-5 md">
+      <div class="col-12 break w-100"></div>
+    </div>
+  </div>
+
   <section class="container-fluid">
-    <div class="row justify-content-center mx-5">
-      <div class="col-10 col-md-5 p-2">
-        <img class="img-fluid" src="//placehold.it/500x500" alt="">
+    <div class="row text-center justify-content-center mx-2">
+      <div class="col-10 col-md-6 p-2">
+        <img class="img-fluid" src="//placehold.it/650x600" alt="">
       </div>
-      <div class="col-10 col-md-5 p-2 text-justify">
+      <div class="col-10 col-md-6 p-2 text-justify">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, quas laborum, velit voluptas molestiae quod
+          facere necessitatibus repellendus iste nisi accusantium fugiat quo porro alias nulla ea vel unde sunt. Lorem
+          ipsum dolor sit amet consectetur adipisicing elit. Molestias, fuga totam. Aperiam suscipit ea ipsam totam
+          temporibus! Distinctio voluptates ipsa ex sed aut quidem, officiis, quis vero maiores porro officia? Lorem
+          ipsum dolor sit amet consectetur adipisicing elit. Laborum officiis eaque, consectetur, enim ad corrupti
+          recusandae quibusdam neque quas quidem esse illo vel dolorem incidunt necessitatibus distinctio veniam maxime
+          assumenda? Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, quas laborum, velit voluptas molestiae
+          quod
+          facere necessitatibus repellendus iste nisi accusantium fugiat quo porro alias nulla ea vel unde sunt. Lorem
+          ipsum dolor sit amet consectetur adipisicing elit. Molestias, fuga totam. Aperiam suscipit ea ipsam totam
+          temporibus! Distinctio voluptates ipsa ex sed aut quidem, officiis, quis vero maiores porro officia? Lorem
+          ipsum dolor sit amet consectetur adipisicing elit. Laborum officiis eaque, consectetur, enim ad corrupti
+          recusandae quibusdam neque quas quidem esse illo vel dolorem incidunt necessitatibus distinctio veniam maxime
+          assumenda?Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, quas laborum, velit voluptas molestiae
+          quod
           facere necessitatibus repellendus iste nisi accusantium fugiat quo porro alias nulla ea vel unde sunt. Lorem
           ipsum dolor sit amet consectetur adipisicing elit. Molestias, fuga totam. Aperiam suscipit ea ipsam totam
           temporibus! Distinctio voluptates ipsa ex sed aut quidem, officiis, quis vero maiores porro officia? Lorem
@@ -129,9 +149,9 @@
   </section>
 
   <section class="container-fluid header-bg">
-    <div class="row">
-      <div class="col-12 col-md-6">
-        <img class="img-fluid w-25" src="https://picsum.photos/id/237/100/75" alt="Logo">
+    <div class="row text-center">
+      <div class="col-12 text-light">
+        <img class="img-fluid w-auto pt-4" src="https://picsum.photos/id/237/100/75" alt="Logo">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
       </div>
 
@@ -139,17 +159,14 @@
   </section>
 
   <footer class="container-fluid">
-    <div class="row">
-      <div class="col-12 text-center">
-        <ul class="nav justify-content-between">
-          <li class="nav-item">
-            <a class="nav-link active" href="#">Active</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="#">Link</a>
-          </li>
-        </ul>      </div>
-    </div>
+<div class="row">
+  <div class="col-12 col-md-6 text-center text-md-left">
+    <a class="nav-item nav-link" href="#">Much longer nav link</a>
+  </div>
+  <div class="col-12 col-md-6 text-center text-md-right">
+    <a class="nav-item nav-link" href="#">Much longer nav link</a>
+  </div>
+</div>
   </footer>
 
   <!-- Optional JavaScript -->

@@ -1,14 +1,58 @@
 .header-bg{
-  background: rgba(233,12,245,1);
-  background: -moz-linear-gradient(left, rgba(233,12,245,1) 0%, rgba(233,12,245,1) 43%, rgba(222,24,240,1) 57%, rgba(156,15,191,1) 84%, rgba(156,15,191,1) 100%);
-  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(233,12,245,1)), color-stop(43%, rgba(233,12,245,1)), color-stop(57%, rgba(222,24,240,1)), color-stop(84%, rgba(156,15,191,1)), color-stop(100%, rgba(156,15,191,1)));
-  background: -webkit-linear-gradient(left, rgba(233,12,245,1) 0%, rgba(233,12,245,1) 43%, rgba(222,24,240,1) 57%, rgba(156,15,191,1) 84%, rgba(156,15,191,1) 100%);
-  background: -o-linear-gradient(left, rgba(233,12,245,1) 0%, rgba(233,12,245,1) 43%, rgba(222,24,240,1) 57%, rgba(156,15,191,1) 84%, rgba(156,15,191,1) 100%);
-  background: -ms-linear-gradient(left, rgba(233,12,245,1) 0%, rgba(233,12,245,1) 43%, rgba(222,24,240,1) 57%, rgba(156,15,191,1) 84%, rgba(156,15,191,1) 100%);
-  background: linear-gradient(to right, rgba(233,12,245,1) 0%, rgba(233,12,245,1) 43%, rgba(222,24,240,1) 57%, rgba(156,15,191,1) 84%, rgba(156,15,191,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e90cf5', endColorstr='#9c0fbf', GradientType=1 );
+  background: rgb(158,9,242);
+  background: linear-gradient(121deg, rgba(158,9,242,1) 22%, rgba(51,0,80,1) 100%);
+}
+
+.vid{
+  border-radius: 2rem;
+  box-shadow: black;
 }
 
 .card.nb{
   border: none !important;
+  bottom: -7rem;
+}
+
+.bg-purp{
+  background-color: #9e09f2;
+}
+.btn-1 {
+  display: inline-block;
+  font-weight: 400;
+  color: #212529;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: none;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btn-color{
+  background: rgb(158,9,242);
+  background: linear-gradient(121deg, rgba(158,9,242,1) 22%, rgba(51,0,80,1) 100%);
+  color: #f4f4f4;
+  text-shadow: black 1px;
+}
+
+.btn-color2{
+  background-color: magenta;
+}
+
+.break{
+  background-color: #9e09f2;
+  height: 1vh;
+
+}
+
+footer{
+  background-color: darkslategray;
+  height: 13vh;
 }
