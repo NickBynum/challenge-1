@@ -1,6 +1,6 @@
 .header-bg{
   background: rgb(158,9,242);
-  background: linear-gradient(121deg, rgba(158,9,242,1) 22%, rgba(51,0,80,1) 100%);
+  background: linear-gradient(21deg, rgba(158,9,242,0) 49%, rgba(158,9,242,1) 49%, rgba(51,0,80,1) 100%);
 }
 
 .vid{
