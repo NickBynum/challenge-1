@@ -11,8 +11,13 @@
 .card.nb{
   border: none !important;
   bottom: -7rem;
+  background-color: rgba(255, 255, 255, 0);
 }
 
+
+.card-body{
+  margin-bottom: -1rem;
+}
 .bg-purp{
   background-color: #9e09f2;
 }
@@ -33,6 +38,7 @@
   font-size: 1rem;
   line-height: 1.5;
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  width: 75%;
 }
 
 .btn-color{
