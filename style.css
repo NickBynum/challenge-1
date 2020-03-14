@@ -2,6 +2,7 @@
   background: rgb(158,9,242);
   background: linear-gradient(21deg, rgba(158,9,242,0) 49%, rgba(158,9,242,1) 49%, rgba(51,0,80,1) 100%);
 }
+
 .footer-bg{
   background: rgb(158,9,242);
   background: linear-gradient(121deg, rgba(158,9,242,1) 22%, rgba(51,0,80,1) 100%);
@@ -9,7 +10,6 @@
 
 .vid{
   border-radius: 2rem;
-  box-shadow: black;
 }
 
 .card.nb{
@@ -17,7 +17,6 @@
   bottom: -7rem;
   background-color: rgba(255, 255, 255, 0);
 }
-
 
 .card-body{
   margin-bottom: -1rem;
@@ -63,10 +62,11 @@
 }
 
 footer{
-  background-color: darkslategray;
+  background-color: rgb(36, 36, 36);
   height: 7vh;
 }
 
 .bg-slate{
-  background-color: darkslategray;
+  background-color: rgb(36, 36, 36);
+  bottom: -.75rem;
 }
